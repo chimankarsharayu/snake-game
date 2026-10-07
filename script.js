@@ -145,7 +145,6 @@ function restartGame() {
 }
 
 addEventListener("keydown", (event) => {
-  console.log(event.key);
   if (event.key === "ArrowLeft" && direction !== "right") {
     direction = "left";
   } else if (event.key === "ArrowRight" && direction !== "left") {
